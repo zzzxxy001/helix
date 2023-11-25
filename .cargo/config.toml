@@ -3,4 +3,4 @@ xtask = "run --package xtask --"
 integration-test = "test --features integration --profile integration --workspace --test integration"
 
 [target.x86_64-unknown-linux-gnu]
-rustflags = "-C target_cpu=skylake-avx512"
+#rustflags = "-C target_cpu=skylake-avx512"
